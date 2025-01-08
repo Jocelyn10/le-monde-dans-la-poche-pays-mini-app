@@ -1,11 +1,7 @@
 App({
-  onLaunch(options) {
-    // 第一次打开
-    // options.query == {number:1}
-    console.info('App onLaunch');
-  },
-  onShow(options) {
-    // 从后台被 scheme 重新打开
-    // options.query == {number:1}
-  },
+  BASE_URL: 'https://api.api-ninjas.com/v1',
+  API_KEY: 'mpc6RHiIEiGKwt10nThRwA==rmkekTqZaqL4C5yT',
+  
+  onLaunch(options) {},
+  onShow(options) {},
 });
