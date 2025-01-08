@@ -1,5 +1,5 @@
 Page({
-  handlePopulation(){
+  handleCountry(){
     const {
       BASE_URL,
       API_KEY
@@ -9,7 +9,7 @@ Page({
     // TODO 1: Convert country text to english text
     // TODO 2: If text.length > 2, Add trim, Set text to miniscule, Set a switch case => Last value  
 
-    const URL = `${BASE_URL}/population?country=${country}`
+    const URL = `${BASE_URL}/country?name=${country}`
 
     my.request({
       url: URL,
